@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/sing_Img0"
+            android:layout_width="68dp"
+            android:layout_height="69dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/defaultimg" />
+
+        <TextView
+            android:id="@+id/user_single_name0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sing_Img"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/sing_Img"
+            android:text="Display Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_single_status0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="29dp"
+            android:layout_toEndOf="@+id/sing_Img"
+            android:text="For:"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_ago0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="325dp"
+            android:text="@string/title"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/message_messages"
+            android:background="@color/pearl" />
+
+        <TextView
+            android:id="@+id/messsage_ad_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_single_name0"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/user_single_status0"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/message_ad_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_single_status0"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/sing_Img0"
+            android:text="@string/fixed_price"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/message_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/user_single_name0"
+            android:layout_below="@+id/message_ad_price"
+            android:text="@string/messages"
+            android:textColor="@color/lightbl"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

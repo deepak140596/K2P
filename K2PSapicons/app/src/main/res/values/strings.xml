@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">K2P</string>
+    <string name="display_name">Display Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_id">Email-Id</string>
+    <string name="password">Password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_posts">Posts</string>
+    <string name="favourites">Favourite</string>
+    <string name="messages">Messages</string>
+    <string name="facebook_app_id">168539967349840</string>
+    <string name="fb_login_protocol_scheme">fb168539967349840</string>
+    <string name="phone">Phone</string>
+    <string name="example">example@example.com</string>
+    <string name="TBD">TBD</string>
+    <string name="log_in">Log In</string>
+    <string name="logout">Logout</string>
+    <string-array name="Gende">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Category">
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Glutes</item>
+        <item>Deltoids</item>
+        <item>Muscles</item>
+        <item>Lean</item>
+        <item>Bulk</item>
+        <item>Bully</item>
+        <item>Iron-man</item>
+        <item>Thor</item>
+    </string-array>
+    <string-array name="states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string name="Gender">Gender</string>
+    <string-array name="CodeName">
+        <item>+91</item>
+        <item>+1</item>
+        <item>+6</item>
+        <item>+2</item>
+        <item>+5</item>
+        <item>+7</item>
+        <item>+8</item>
+        <item>+45</item>
+        <item>+44</item>
+        <item>+85</item>
+    </string-array>
+    <string name="forgotten_your_password">Forgotten Your Password</string>
+    <string name="lock_screen">Pin Lock</string>
+    <string-array name="phone">
+        <item>+91</item>
+        <item>+1</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="fixed_price">Fixed Price</string>
+    <string name="location_and_contact">Location and Contact</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">x9CZWy7UuihHrMyBO6kqTVgzj</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">jRxXiLfzjPabZHqegtNiluHu9kN270QKaZQkGrPd06sRW3Hyql</string>
+    <string name="post_ad">Post Ad</string>
+    <string name="preview_ad">Preview Ad</string>
+    <string name="information">Information</string>
+    <string name="category">Category</string>
+    <string name="state">State</string>
+    <string name="l">Your Status</string>
+    <string name="save">Save</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="image">Image</string>
+    <string name="message_owner">Message Owner</string>
+    <string name="call_order">Call Order</string>
+    <string name="chat">Chat</string>
+    <string name="description1">Description:</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="need_more_help">Need More Help?</string>
+    <string name="get_new_password">Get New Password</string>
+    <string name="login_again">Login again!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register !</string>
+    <string name="search">Search</string>
+    <string name="you">You</string>
+    <string name="Confirm">Confirm</string>
+    <string name="locality">Locality,State</string>
+    <string name="lo">Delete Post</string>
+    <string name="delete">Delete</string>
+    <string name="status">STATUS</string>
+    <string name="category1">Category:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="your_posts">Your Posts</string>
+    <string name="log_out">Log Out</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+</resources>

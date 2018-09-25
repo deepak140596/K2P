@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/con_setting_user"
+            android:icon="@drawable/setting_icon"
+            android:title="@string/account_settings"/>
+        <item android:id="@+id/con_specific"
+            android:icon="@drawable/specific"
+            android:title="@string/your_posts"/>
+
+        <item android:id="@+id/con_log_out"
+            android:icon="@drawable/log_out"
+            android:title="@string/log_out"/>
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+</menu>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sapicons.deepak.k2psapicons">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Others.TBD" />
+        <activity
+            android:name=".Others.forgot_passwd"
+            android:parentActivityName=".Activities.LoginActivity" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:parentActivityName=".Activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.SettingActivity" />
+        <activity
+            android:name=".Others.ChangeStat"
+            android:parentActivityName=".Activities.SettingActivity" />
+        <!-- android:screenOrientation="portrait" -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Activities.ExpandActivity"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Activities.ChatActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.EditActivity"
+            android:parentActivityName=".Activities.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SpecificActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.SplashActivity" />
+        <activity android:name=".Activities.CategoryActivity" />
+    </application>
+</manifest>
